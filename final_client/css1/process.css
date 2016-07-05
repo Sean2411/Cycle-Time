@@ -1,0 +1,90 @@
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer{
+	display: block;
+}
+
+
+/*----------------------------
+	The Questions
+-----------------------------*/
+
+
+#questions{
+	width:500px;
+	margin: 0 auto;
+    padding: 120px 0 5px;
+	list-style:none;
+	text-align:center;
+}
+
+#questions > li{
+	border-radius:4px;
+	box-shadow:0 0 2px rgba(0,0,0,0.2);
+	border:1px solid #8a9ba0;
+	background:url('../img/section_bg.jpg') repeat-x #f0f5f7;
+	padding:0 20px 20px;
+	margin-bottom: 55px;
+	position:relative;
+}
+
+
+#questions > li p{
+	line-height:60px;
+	color:#70777a;
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+#questions li .divider,
+#questions li .divider:before,
+#questions li .divider:after{
+	content:'';
+	position:absolute;
+	background-color:#384044;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	bottom:-35px;
+	left:50%;
+	margin-left:-4px;
+}
+
+#questions li .divider:before{
+	margin-left:-24px;
+	bottom:0;
+}
+
+#questions li .divider:after{
+	margin-left: 16px;
+	bottom:0;
+}
+
+#questions > li select{
+	width:300px;
+}
+
+
+.chzn-container{
+	text-align:left;
+}
+
+#preloader{
+	height:80px	background:url('../img/ajax-loader.gif') no-repeat center center;
+	width:500px;
+	display:none;
+	margin: -120px auto 0;
+}

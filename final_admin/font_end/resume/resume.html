@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title contenteditable="true">Nick Pettit | Designer</title>
+     <link rel="stylesheet" href="css/normalize.css">
+     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/responsive.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+  <style >
+a{
+  color:#6ab47b;
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+header{
+  background: #6ab47b;
+  border-color: #599a68;
+}
+h1{
+  font-family: 'Changa One', sans-serif;
+  margin:15px 0;
+  font-size:1.75em;
+  font-weight:normal;
+  line-height: 0.8em;
+}
+
+h2{
+  font-size:0.75em;
+  margin:-5px 0 0;
+  font-weight: normal;
+  
+}
+
+.contact-info p{
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 1.25em;
+
+}
+h4{
+  font-size: .8em;
+  text-align: right;
+}
+.row{
+  margin-bottom: 0px;
+}
+.resume{
+  margin-top: 60px;
+}
+.button{
+  margin-top: 30px;
+}
+
+
+/* #Media Queries
+================================================== */
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {}
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+  h1{font-size: 2.75em;}
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .contact-info, h2, h3, h4{text-align: center;}
+    
+    .list-wrap li{
+    display: inline;
+    padding-right: 20px;
+    }
+
+    h2{
+    font-size:2.5em;
+
+    border-bottom: none;
+    padding-bottom: 0px;
+    color: grey;
+    }
+
+    h3{
+    font-size: 1.5em;
+    line-height:1em;
+    }
+    h4{
+    font-size: 1em;
+    }
+
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+
+    .contact-info, h2, h3, h4{text-align: center;}
+    
+    .list-wrap li{
+    display: inline;
+    padding-right: 20px;
+    }
+
+    h2{
+    font-size:2.5em;
+    border-bottom: none;
+    padding-bottom: 0px;
+    color: grey;
+    }
+
+    h3{
+    font-size: 1.5em;
+    line-height:1em;
+    }
+    h4{
+    font-size: 1em;
+    }
+  }
+     </style>
+    <header>
+      <a href="index-2.html" id ="logo">
+        <h1 contenteditable="true">Yi Wang</h1>
+        <h2>Designer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index-2.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html" class="selected">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+    <section>
+     <!--  <img src="img/yiwang.jpg" alt="Photograph of Nick Pettit" class="profile-photo" style="align: center;"> -->
+      <h3 style="text-align: center;">Resume</h3>
+    <!-- Add/Remove my custom CSS rule "showgrid" 
+the main container <DIV> to make Skeleton's 
+grid visible when designing layouts-->
+
+<div class="container .showgrid">
+  <div class="twelve columns resume">
+    <h3 style="border-bottom: 1px solid grey;">EXPERIENCE</h3>
+    <div class="row">
+      <h3 class="seven columns alpha">Web Application Design and Maintenance</h3>
+      <h4 class="five columns omega">NewJersy, <em>NJ 2013-2014</em></h4>
+    </div>    
+    <ul>
+      <li>Primary responsibilities included the development of administrator template and visitor template.</li>
+      <li>Accomplished Upload, Import, Export Excel including UI Design.</li>
+      <li>Daily maintenance: update data/documents and fix bugs</li>
+      <li>Design different Report Formate For Back System</li>
+    </ul>
+    
+    <div class="row">
+      <h3 class="seven columns alpha">Enterprise Software Architecture and Design</h3>
+      <h4 class="five columns omega">NewJersy,  <em>NJ Spring-2013</em></h4>
+    </div>
+    <ul>  
+      <li>Implemented enterprise software system based on Web Services and cloud computing Technology</li>
+      <li>Utilized architecture such as service-oriented, event-driven and representational state transfer</li>
+      <li>Built and installed the application EARs in the development environment and deploy it into glassfish server</li>
+    </ul>
+    
+    <div class="row">
+      <h3 class="seven columns alpha">Web Analytics</h3>
+      <h4 class="five columns omega">NewJersy, <em>NJ Fall-2013 </em></h4>
+    </div>    
+    <ul>
+      <li>Fetch data by beautifulSoup and regular expression mechanism from Mooc-list search engine website on online course</li>
+      <li>Produced data analysis diagram by Python Vicent so that each user can find what course he/she is prefer after view it</li>
+      <li>Produced a .arff file for Weka that analyzes and summarizes data using R algorithm such as K-nearest neighbor</li>
+    </ul>
+    
+    <div class="row">
+      <h3 class="seven columns alpha">Sales Assistant</h3>
+      <h4 class="five columns omega">China, <em>ChengDu 2009-2010</em></h4>
+    </div>
+    <ul>    
+      <li>Introduced every Mainboard produced by company to customers for raising their interest up</li>
+      <li>Assembled case for customers to avoid unnecessary risk occurrence when customers did by themselves</li>
+    </ul>
+    <br><br>
+    <div class="row">
+      <div class="six columns alpha">
+        <h3 style="border-bottom: 1px solid grey;">EDUCATION</h3>
+        <ul>
+          <li>Stevens Institute of Technology <strong>Hoboken, NJ  <span style="padding-left:400px;"><em >Dec. 2014(expected) </em></span></strong></li>
+          <span>Master of Science in Computer Science, GPA: 3.5 </span>
+          <li>Chengdu University of Information Technology <strong>Chengdu, China  <span style="padding-left:300px;"><em>   July 2012</em></span></strong></li>
+          <span>Bachelor of Science in Computer Engineering, GPA: 3.45</span>
+        </ul>
+      </div>
+      <div class="six columns omega list-wrap">
+        <h3 style="border-bottom: 1px solid grey;">SKILLS</h3>
+        <ul>
+          <li>Software: Microsoft Office Suite, Eclipse, Visual Studio, Dreamware, Canopy, R Studio, Postgresql, Photoshop, Drupal</li>
+          <li>Programming Languages: C, C++, Java, XML, JSON, Javascript, AngularJs, PHP_5.4, HTML5, R_3.0, Python_3.3, JQuery</li>
+          <li>Server: glassfish, apache_2.4, AWS_ec2</li>
+          <li>Operating System:  Windows, Linux, Mac</li>
+          <li>Languages: English, Chinese mandarin</li>
+          <li>Fast learner, good personality, self-motivated and good team player</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- container -->
+    </section>
+    <footer>
+      <a href="https://www.facebook.com/yi.wang.3572846"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+      <p>&copy; 2014 Yi Wang.</p>
+    </footer>
+  </div>
+  </body>
+</html>

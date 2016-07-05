@@ -1,0 +1,114 @@
+/*---------- GENERAL ----------*/
+/*
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+/*
+html {
+  height: 100%;
+}
+
+body {
+ background: url("http://i.imgur.com/ol33ASV.jpg") no-repeat 50% 50%; 
+  -webkit-background-size: cover;
+  background-size: cover;
+  font: 400 1em/1.5em 'Raleway', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+
+/*---------- UTILITIES ----------*/
+.clear, .profile-card .social {
+  *zoom: 1;
+}
+.clear:before, .profile-card .social:before, .clear:after, .profile-card .social:after {
+  content: ' ';
+  display: table;
+}
+.clear:after, .profile-card .social:after {
+  clear: both;
+}
+
+.list-unstyled, .profile-card .social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*---------- PROFILE_CARD ----------*/
+.profile-card {
+  background-color: #fff;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  color: #555;
+  height: 30em;
+  left: 0;
+  margin-top: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+.profile-card a {
+  color: #555;
+}
+.profile-card img {
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  background-clip: padding-box;
+  margin: 2em 0;
+}
+.profile-card h1 {
+  color: #000;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.profile-card h2 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin: 0 0 4em 0;
+}
+.profile-card .btn {
+  border: 10px solid #ddd;
+  display: block;
+  margin: 0 auto 2em auto;
+  padding: .5em 0;
+  text-transform: uppercase;
+  width: 80%;
+}
+.profile-card .social {
+  border-top: 1px solid #eee;
+  font-size: 1.5em;
+  text-align: center;
+}
+.profile-card .social li {
+  float: left;
+  width: 33.33333%;
+}
+.profile-card .social a {
+  display: block;
+  padding: 1em 0;
+}
+.profile-card .social .fa-twitter:hover {
+  color: #55acee;
+}
+.profile-card .social .fa-dribbble:hover {
+  color: #ea4c89;
+}
+.profile-card .social .fa-linkedin:hover {
+  color: #0976b4;
+}

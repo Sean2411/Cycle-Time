@@ -1,0 +1,189 @@
+/*********************
+header
+**********************/
+header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo{
+	text-align: center;
+	margin:0;
+}
+
+h3{
+	margin: 0 0 1em 0;
+}
+
+style[contenteditable]{
+	outline:none;
+	display:block;
+	font:1.2em/1.8 monospace;
+	background:#272822;
+	color:#f8f8f3;
+	height:300px;
+	padding-left:30px;
+	overflow: auto;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	white-space:pre;
+
+}
+
+[class^="icon-"]{
+	display: block;
+	width:32px;
+	height: 32px;
+	background: url('img/sprites.svg');
+	text-align: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+.icon-twitter{
+	background-position: 0 -48px;
+}
+h1,h2{
+	color:#fff;
+}
+/****************
+Navigation
+*****************/
+nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+/**********************
+Footer
+**********************/
+footer{
+	font-size:0.75em;
+	text-align: center;
+	clear: both;
+	padding-top:50px;
+	color:#ccc;
+}
+
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+/**********
+Page: Portfolio;
+***********/
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#gallery li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color:#bdc3f7;
+}
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+
+nav{
+	background:#599a68;
+}
+
+nav a, nav a:visited{
+	color:#fff;
+}
+
+nav a.selected, nav a:hover{
+	color:#32673f;
+
+}
+
+body{
+	background-color: #fff;
+	color:#999;
+}
+
+
+
+
+/*****************
+Page: About
+********************/
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 atuo 30px;
+	border-radius: 100%;
+}
+
+/*****************
+Page: Contact
+********************/
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+a{
+  color:#FFF;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+}
+
+header{
+  background: #6ab47b;
+  border-color: #599a68;
+  height: 95px;
+}
+h1{
+  font-family: 'Changa One', sans-serif;
+  margin:15px 0;
+  font-size:2.5em;
+  font-weight:normal;
+  line-height: 0.8em;
+  text-align: center;
+}
+h2{
+  font-size:1.75em;
+  margin:-5px 0 0;
+  font-weight: normal;
+  text-align: center;
+}
+#sign{
+  float:right;
+}
+#button{
+  float: right;
+}
