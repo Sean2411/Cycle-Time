@@ -1,4 +1,4 @@
-This is a web application project for predicting the best service provider for clients.
+This is a web application project for helping the client to select the suitable products providers and refill the products automatically.
 
 Created by Sean Lu, Jet Liu, and Yi Wang.
 
